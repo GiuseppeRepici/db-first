@@ -1,0 +1,21 @@
+cars
+________________
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+isbn - VARCHAR(13) - UNIQUE - NOT NULL
+brand - VARCHAR(30) - NOT NULL
+model - VARCHAR(30) - NOT NULL
+km - MEDIUMINT - NOT NULL
+energy - VARCHAR(15) - NOT NULL
+price - DECIMAL(8, 2) - NOT NULL
+discount - DECIMAL(6, 2)
+registration_year - YEAR - NOT NULL
+available - TINYINT - DEFAULT(1)
+poster - TEXT - DEFAULT("/assets/img/default_poster.jpg") 
+vote - FLOAT(3,1)  
+description - TEXT
+emission - VARCHAR(20)
+gearbox - VARCHAR(20) - NOT NULL
+colour - VARCHAR(20)
+number_of_doors - TINYINT
+number_of_seats - TINYINT
